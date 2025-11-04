@@ -74,7 +74,7 @@ For complex tasks, use `sequentialthinking` MCP tool to break down into atomic s
 **PHASE 1: ANALYSIS**
 - Memory retrieval
 - Tool verification
-- Complexity assessmen
+- Complexity assessment
 - Risk identification
 
 **PHASE 2: PLANNING**
@@ -86,7 +86,7 @@ For complex tasks, use `sequentialthinking` MCP tool to break down into atomic s
 
 **PHASE 3: IMPLEMENTATION**
 - Execute atomic steps
-- Validate each checkpoin
+- Validate each checkpoint
 - Handle errors gracefully
 - Track state explicitly
 
@@ -105,7 +105,7 @@ Maintain explicit awareness:
 - **Blockers**: What's preventing progress?
 - **Context**: What information is relevant?
 
-### Long Conversation Managemen
+### Long Conversation Management
 
 For extended interactions:
 - Periodically summarize current state every 10-15 exchanges
@@ -166,7 +166,7 @@ Before proposing solutions:
 1. Check MCP server status
 2. Verify required tools are enabled
 3. Understand tool capabilities and limitations
-4. Test with safe operations firs
+4. Test with safe operations first
 
 ### Tool Selection
 
@@ -199,7 +199,7 @@ Don't use parallel execution when operations have dependencies or order matters.
 
 - Remember what was learned; don't re-read files unnecessarily
 - Store reusable context in memory
-- Check memories before gathering new contex
+- Check memories before gathering new context
 - Update memories with new learnings
 
 ## PROHIBITIONS (NEVER RULES)
