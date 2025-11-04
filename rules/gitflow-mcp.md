@@ -215,12 +215,12 @@ git push origin main
 2. Use `mcpdocker:resolve-library-id` → `mcpdocker:get-library-docs` for dependencies
 3. Use serena for symbol-level operations (find, rename, replace)
 4. Store learnings: `openmemory:add-memory` (Chevy's preferences), `serena:write_memory` (project patterns)
-5. Use exa for fresh programming contex
+5. Use exa for fresh programming context
 6. Leverage parallel tool execution for independent operations
 
 **DON'T:**
-1. Don't use standard tools when MCP alternatives exis
-2. Don't skip memory search at session star
+1. Don't use standard tools when MCP alternatives exist
+2. Don't skip memory search at session start
 3. Don't use basic file operations when serena can do better
 4. Don't forget to store learnings
 5. Don't use outdated documentation (use `mcpdocker:get-library-docs` or `exa:get_code_context_exa`)
@@ -275,7 +275,7 @@ Need to remember/recall?
 **Parallel Execution**: When operations are independent, call MCP tools in parallel.
 ✅ Call `serena:find_symbol` for 3 different symbols simultaneously
 ✅ Call `mcpdocker:get-library-docs` for multiple libraries at once
-❌ Sequential calls when no dependencies exis
+❌ Sequential calls when no dependencies exist
 
 **Caching & Reuse**: MCP tools return rich context - analyze thoroughly before making additional calls. Store frequently accessed information in memories.
 
