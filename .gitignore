@@ -1,5 +1,7 @@
 # Augment-specific files (readable but not tracked)
 .auggie.json
+settings.json
+ssh-config
 
 # Session data
 sessions/
