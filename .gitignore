@@ -1,0 +1,28 @@
+# Session data
+sessions/
+session.json
+task-storage/
+
+# Checkpoint documents
+checkpoint-documents/
+
+# Binaries
+binaries/
+
+# SSH config (may contain sensitive data)
+ssh-config
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
