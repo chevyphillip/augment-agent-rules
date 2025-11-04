@@ -1,3 +1,6 @@
+# Augment-specific files (readable but not tracked)
+.auggie.json
+
 # Session data
 sessions/
 session.json
@@ -25,4 +28,3 @@ Thumbs.db
 
 # Logs
 *.log
-
