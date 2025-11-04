@@ -8,19 +8,11 @@ This repository contains a comprehensive set of rules that guide the Augment Age
 
 ## Rule Files
 
-### Core Operational Rules
+Rules have been consolidated into two streamlined documents that remove verbose examples and templates, retaining only essential, actionable guidance. All references use "Chevy (user)" in third person.
 
-- **[cognitive-protocol.md](rules/cognitive-protocol.md)** - Defines the core cognitive protocol for task analysis, planning, and execution with mandatory initiation sequence and chain of thought reasoning.
+- **[core-protocol.md](rules/core-protocol.md)** - Core cognitive protocol, context engineering essentials, prohibitions, and "NEVER Create Excessive Documentation" policy. Defines the mandatory initiation sequence (THINK → SEARCH → INVENTORY → PLAN → VALIDATE), memory management, tool usage, and strict prohibitions.
 
-- **[context-engineering.md](rules/context-engineering.md)** - Optimizations for context management, memory usage, tool selection, and state tracking across conversations.
-
-- **[prohibitions.md](rules/prohibitions.md)** - Strict prohibitions and "NEVER" rules to prevent unsafe operations, scope creep, and unwanted modifications.
-
-### Workflow & Integration Rules
-
-- **[gitflow-rules.md](rules/gitflow-rules.md)** - Enforces GitHub-specific GitFlow branching model with main/develop branches, feature/release/hotfix workflows, PR requirements, and merge strategies.
-
-- **[mcp-tools-priority.md](rules/mcp-tools-priority.md)** - Reminds the LLM to prioritize available MCP (Model Context Protocol) tools for enhanced capabilities before falling back to standard tools.
+- **[gitflow-mcp.md](rules/gitflow-mcp.md)** - GitFlow branching practices merged with MCP tools priority and usage. Covers branch structure, workflow sequences, PR requirements, and prioritization of MCP tools (mcpdocker, serena, openmemory, exa) over standard tools.
 
 ## Configuration
 
